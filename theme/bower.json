@@ -1,0 +1,25 @@
+{
+  "name": "keyporium-theme",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fly/keyporium.com",
+  "authors": [
+    "Jon Chen <bsd@voltaire.sh>"
+  ],
+  "description": "Bower package for keyporium.com assets.",
+  "main": "static/css/main.css",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "BSD",
+  "private": true,
+  "dependencies": {
+      "foundation": "5.2.2",
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
