@@ -4,7 +4,7 @@ website source.
 
 ### Git-Hook:
 
-For `ghp-import` magic, create `.git/hooks/post-push`:
+For `ghp-import` magic, create `.git/hooks/pre-push`:
 
 ```
 #!/usr/bin/env bash
