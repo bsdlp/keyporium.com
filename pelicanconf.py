@@ -21,7 +21,7 @@ TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 10
 
-CSSJAWNS = True
+CSSJAWNS = False
 
 # CNAME file for GitHub Project Pages
 STATIC_PATHS = ['extras/CNAME']

@@ -23,7 +23,9 @@
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
     {% if CSSJAWNS %}
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure-min.css">
+        {% assets filters="sass,cssmin", output="" %}
+            <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+        {% endassets %}
     {% endif %}
 
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.ico" />
